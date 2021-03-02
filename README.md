@@ -99,3 +99,30 @@ Each cell is labelled/grouped using the text cells above them. This README hopef
 - Training - Models (Approach 1) - RoBERTa Double
 
 
+## Multi-Model RoBERTa + BERT single parallel training
+
+- Start
+- Load Data
+- Training and Evaluation Helpers
+- Helper Functions
+- Models
+- Initialisation & Processing - Prepare the data for training, assign hyperparameters, initialise the models.
+- Initialisation & Processing - Extract and parse the edited words and sentences
+- Initialisation & Processing - Prepare Bert and RoBerta specfic Preprocessing
+- Multi-Model Testing
+- Training - Models (Approach 1) - Multi-Model Parallel
+
+
+## Multi-Model RoBERTa + BERT single individual + concat training
+
+- Start
+- Load Data
+- Training and Evaluation Helpers
+- Helper Functions
+- Models
+- Initialisation & Processing - Prepare the data for training, assign hyperparameters, initialise the models.
+- Initialisation & Processing - Extract and parse the edited words and sentences
+- Initialisation & Processing - Prepare Bert and RoBerta specfic Preprocessing
+- Multi-Model Testing
+- Training - Models (Approach 1) - Multi-Model Individual + Concat
+
