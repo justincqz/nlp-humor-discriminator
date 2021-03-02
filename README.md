@@ -126,3 +126,56 @@ Each cell is labelled/grouped using the text cells above them. This README hopef
 - Multi-Model Testing
 - Training - Models (Approach 1) - Multi-Model Individual + Concat
 
+
+## Word2Vec + BiLSTM
+
+- Start
+- Load Data
+- Training and Evaluation Helpers
+- Helper Functions
+- Models
+- Initialisation & Processing - Prepare the data for training, assign hyperparameters, initialise the models.
+- Initialisation & Processing - Extract and parse the edited words and sentences
+- Initialisation & Processing - Word Embeddings
+- Training - Models (Approach 2) - Word2Vec + BiLSTM
+
+## Handcrafted + LinearRegressor
+
+- Start
+- Load Data
+- Training and Evaluation Helpers
+- Helper Functions
+- Models
+- Initialisation & Processing - Prepare the data for training, assign hyperparameters, initialise the models.
+- Initialisation & Processing - Extract and parse the edited words and sentences
+- Initialisation & Processing - Prepare Feature Extraction
+- Initialisation & Processing - Text Preprocessing
+- Training - Models (Approach 2) - Regression model on extracted features
+
+
+## Handcrafted + TF-IDF + FNN
+
+- Start
+- Load Data
+- Training and Evaluation Helpers
+- Helper Functions
+- Models
+- Initialisation & Processing - Prepare the data for training, assign hyperparameters, initialise the models.
+- Initialisation & Processing - Extract and parse the edited words and sentences
+- Initialisation & Processing - Prepare Feature Extraction
+- Initialisation & Processing - Text Preprocessing
+- Training - Models (Approach 2) - Handcrafted + TF-IDF + RNN
+
+
+## Handcrafted (orig + FunLines) + FNN
+
+- Start
+- Load Data
+- Training and Evaluation Helpers
+- Helper Functions
+- Models
+- Initialisation & Processing - Prepare the data for training, assign hyperparameters, initialise the models.
+- Initialisation & Processing - Extract and parse the edited words and sentences
+- Initialisation & Processing - Prepare Feature Extraction
+- Initialisation & Processing - Text Preprocessing
+- Training - Models (Approach 2) - FNN on additional FunLines dataset
